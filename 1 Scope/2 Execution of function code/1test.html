@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var foo = "bar";
+    console.log('foo => ', foo);
+
+    function bar() {
+        var foo = "baz";
+        console.log('foo => ', foo);
+    }
+
+    function baz(foo) {
+        var foo = "bams";
+        bam = "yay";
+        console.log('foo => ', foo);
+        console.log('bam => ', bam);
+    }
+
+    bar();
+    var foo = "Siva";
+
+    baz(foo);
+    </script>
+</body>
+
+</html>
