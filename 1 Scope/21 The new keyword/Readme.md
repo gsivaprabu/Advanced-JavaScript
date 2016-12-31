@@ -25,6 +25,3 @@
 4. DEFUALT: global object.
 
 	 Except strict mode
-
-
-
