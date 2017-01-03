@@ -1,4 +1,4 @@
-# Exercise2 SSolutions
+# Exercise2 Solutions
 
 
 ### Instructions
