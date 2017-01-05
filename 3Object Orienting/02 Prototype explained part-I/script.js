@@ -7,15 +7,17 @@ Foo.prototype.identify = function() {
 };
 
 var a1 = new Foo("a1");
-var a2 = new Foo("a2");
+var a2 = new Foo("a2 Siva");
 
 
 a2.speak = function() {
-    alert("Hello, " + this.identify() + ".");
+    alert("Hello, " + this.identify().toUpperCase() + ".");
 };
 
-a1.constructor === Foo;
-a1.constructor === a2.constructor;
+console.log(a1.constructor === Foo);
 
-a1.__proto__ === Foo.prototype;
-a1.__proto__ === a2.__proto__;
+console.log(a1.constructor === a2.constructor);
+
+console.log(a1.__proto__ === Foo.prototype);
+
+console.log(a1.__proto__ === a2.__proto__);

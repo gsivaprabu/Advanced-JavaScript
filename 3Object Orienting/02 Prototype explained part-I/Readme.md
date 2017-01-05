@@ -1,5 +1,11 @@
 # Prototype explained part-I
 
+Object ------ .prototype -----> [.toString() , .toUpperCase()..]
+
+
+Function foo() ------- .prototype -------> Object
+Function foo() <------ .constructor -----> Object
+
 
 #### **new** keyword 4 important rules
 
