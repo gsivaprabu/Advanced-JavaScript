@@ -2,10 +2,6 @@ function NotesManager() {
     this.notes = [];
 }
 
-NotesManager.prototype = {
-		addNote: function..
-}
-
 NotesManager.prototype.addNote = function(note) {
     this.$notes.prepend(
         $("<a href='#'></a>")
